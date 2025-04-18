@@ -10,8 +10,7 @@
   <h1>🛍️ eCommerce Frontend Design</h1>
   <p>This project is a <strong>frontend-only implementation</strong> of an eCommerce website designed during a 3-week internship program. The task was to replicate the <strong>desktop version</strong> of the provided Figma design using HTML, CSS, and JavaScript.</p>
 
-  <h2>🔗 Live Preview</h2>
-  <p><em>Coming soon or insert your deployment link here</em></p>
+ 
 
   <hr/>
 
@@ -19,14 +18,14 @@
   <pre>
 ecommerce-frontend-design/
 ├── index.html
-├── product-listing.html
+├── products.html
 ├── product-details.html
-├── assets/
-│   └── images/
 ├── css/
 │   └── styles.css
+    |__ normalize.css
+    |__ product-details.css
 └── js/
-    └── script.js
+    └── main.js
   </pre>
 
   <h2>📅 Weekly Breakdown</h2>
@@ -63,24 +62,8 @@ ecommerce-frontend-design/
     <li><strong>Figma</strong> - to inspect and extract design details</li>
     <li><strong>GitHub</strong> - version control and submission</li>
   </ul>
-
-  <h2>📌 Submission Guidelines</h2>
-  <ul>
-    <li>Repository Name: <code>ecommerce-frontend-design</code></li>
-    <li>Push updates weekly based on task progress</li>
-    <li>Share the repository link for review</li>
-  </ul>
-
-  <h2>✅ Evaluation Criteria</h2>
-  <ul>
-    <li>Design accuracy (pixel-perfect based on Figma)</li>
-    <li>Clean, semantic HTML and well-commented CSS</li>
-    <li>Responsiveness on different desktop sizes</li>
-    <li>Timely weekly submission via GitHub</li>
-  </ul>
-
   <hr/>
-  <p><strong>Made with ❤️ by Saima during internship</strong></p>
+  <p><strong>Made by Saima during internship</strong></p>
 
 </body>
 </html>
